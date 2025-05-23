@@ -1,0 +1,86 @@
+# === ARQUIVOS SENSÍVEIS ===
+.env
+*.env
+.env.local
+.env.production
+.env.staging
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === DESENVOLVIMENTO ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# === SISTEMA OPERACIONAL ===
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# === LOGS E TEMPORÁRIOS ===
+*.log
+*.tmp
+*.temp
+temp/
+logs/
+
+# === TESTES E DADOS ===
+test_*.py
+*_test.py
+tests/
+
+# Dados sensíveis ou temporários
+data/
+uploads/
+downloads/
+*.csv
+*.xlsx
+*.json
+*.sqlite
+*.db
+
+# === STREAMLIT ESPECÍFICO ===
+.streamlit/cache/
+
+# === DOCUMENTAÇÃO ===
+TODO.md
+NOTES.md
+rascunho.txt
+*.draft
+
+# === DEPENDÊNCIAS ===
+Pipfile.lock
+poetry.lock
+
+# === OUTROS ===
+*.zip
+*.tar.gz
+*.rar
+
+# Arquivos de backup
+*.bak
+*.backup

@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 # Configuração da página
 st.set_page_config(
-    page_title="Professor Ronald",
+    page_title="Professor Bola Gringa",
     page_icon=":robot:",
     layout="centered",
 )
