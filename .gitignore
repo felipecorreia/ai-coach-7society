@@ -1,86 +1,41 @@
-# === ARQUIVOS SENSÍVEIS ===
+# Environment variables
 .env
 *.env
-.env.local
-.env.production
-.env.staging
 
-# === PYTHON ===
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-
-# Ambiente virtual
-venv/
+*.pyc
+*.pyo
+*.pyd
+.Python
 env/
-ENV/
+venv/
 .venv/
 
-# Pip
-pip-log.txt
-pip-delete-this-directory.txt
+# Temporary files
+temp_audio/
+*.ogg
+*.mp3
+*.wav
+bot.py
+bot_intermediate.py
+setup.py
+bot_degub.py
 
-# === DESENVOLVIMENTO ===
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
-# Jupyter Notebooks
-.ipynb_checkpoints
-
-# === SISTEMA OPERACIONAL ===
-
-# macOS
+# OS
 .DS_Store
-.AppleDouble
-.LSOverride
+Thumbs.db
 
-# Linux
-*~
-
-# === LOGS E TEMPORÁRIOS ===
-*.log
-*.tmp
-*.temp
-temp/
-logs/
-
-# === TESTES E DADOS ===
-test_*.py
-*_test.py
-tests/
-
-# Dados sensíveis ou temporários
-data/
-uploads/
-downloads/
-*.csv
-*.xlsx
+# Google credentials
 *.json
-*.sqlite
-*.db
+.json
 
-# === STREAMLIT ESPECÍFICO ===
-.streamlit/cache/
-
-# === DOCUMENTAÇÃO ===
-TODO.md
-NOTES.md
-rascunho.txt
-*.draft
-
-# === DEPENDÊNCIAS ===
-Pipfile.lock
-poetry.lock
-
-# === OUTROS ===
-*.zip
-*.tar.gz
-*.rar
-
-# Arquivos de backup
-*.bak
-*.backup
+# Logs
+*.log
+logs/

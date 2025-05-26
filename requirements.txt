@@ -1,3 +1,4 @@
-streamlit
+python-telegram-bot
 google-generativeai
+google-cloud-texttospeech
 python-dotenv
